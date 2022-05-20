@@ -59,7 +59,7 @@ export default function AddUser() {
   }, [form.confirmPassword])
 
   return (
-    <div className="w-full h-full flex flex-col justify-center items-center mt-20 sm:mt-10">
+    <div className="w-full h-full flex flex-col justify-center items-center mt-32 sm:mt-32 xl:mt-26 3xl:mt-0 ">
       <form 
         onSubmit={onFormSubmit} 
         className="relative text-lg font-crimsonTextSemiBold sm:w-[70%] lg:w-1/2 
